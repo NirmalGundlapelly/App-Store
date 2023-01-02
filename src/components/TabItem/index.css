@@ -1,0 +1,28 @@
+/* Write your CSS here */
+.tabListItem {
+  padding-bottom: 20px;
+  font-size: 'Roboto';
+  font-weight: bold;
+  transition: all 0.5;
+}
+
+.tabButtons {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 4px #dfe2e5 solid;
+  padding: 20px 30px 20px 30px;
+  font-size: 15px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #7b8794;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+.activeButton {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 4px #2563eb solid;
+}
