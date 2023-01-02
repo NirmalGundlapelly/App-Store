@@ -26,3 +26,8 @@
   border-right: none;
   border-bottom: 4px #2563eb solid;
 }
+@media screen and (max-width: 768px) {
+  .tabButtons {
+    padding: 20px;
+  }
+}

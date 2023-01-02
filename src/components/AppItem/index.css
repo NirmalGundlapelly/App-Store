@@ -19,3 +19,16 @@
   align-items: center;
   border-radius: 10px;
 }
+@media screen and (max-width: 768px) {
+  .appLogo {
+    width: 34px;
+  }
+  .appNames {
+    font-size: 15px;
+  }
+  .appItem {
+    margin: 10px;
+    padding: 1;
+    min-width: 120px;
+  }
+}

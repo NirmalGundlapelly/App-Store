@@ -1,18 +1,17 @@
 /* Write your CSS here */
 .bgContainer {
   background-image: linear-gradient(to bottom, #fff1eb, #ace0f9);
-  height: 120vh;
   padding: 20px;
   margin-top: -30px;
   display: flex;
   flex-direction: column;
   align-items: center;
   transition: all 0.5;
+  padding-bottom: 20px;
 }
 
 .appContainer {
   margin-top: 50px;
-  max-width: 80%;
 }
 
 .appStoreHeading {
@@ -52,6 +51,7 @@
   list-style: none;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .appItemsContainer {
   display: flex;
@@ -59,4 +59,16 @@
   align-items: center;
   flex-wrap: wrap;
   transition: all 0.5;
+}
+.tabContainer {
+  margin-left: -25px;
+}
+
+@media screen and (max-width: 768px) {
+  .bgContainer {
+    padding: 5px;
+  }
+  .appContainer {
+    width: 80%;
+  }
 }
